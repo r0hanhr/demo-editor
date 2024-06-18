@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heading-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading-block > p {
+  text-align: center;
+  width: 100%;
+}
+.editor-block {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 400px;
+}
+.save-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-out;
+}
+.save-btn:hover {
+  background-color: #f0f0f0;
+}
+.save-btn:active {
+  transform: scale(0.95);
+}
+code-block {
+  background-color: #f0f0f0;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+}
